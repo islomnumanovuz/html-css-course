@@ -211,3 +211,5 @@ So again,
 you always need to have fun while coding and with all this
 
 being said, let's now finally get started.
+
+## Keep going
