@@ -1,0 +1,217 @@
+* {
+  /* border-top: 10px solid #1098ad; */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #444;
+  border-top: 10px solid #1098ad;
+  position: relative;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 50px;
+  /* height: 80px; +20 + 20 padding */
+}
+button {
+  font-size: 20px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  bottom: 50px;
+  right: 50px;
+}
+article {
+  margin-bottom: 60px;
+}
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 0;
+  width: 500px;
+}
+h1::first-letter {
+  color: red;
+}
+h3 + p::first-line {
+  color: red;
+}
+h2::after {
+  content: "TOP";
+  display: inline-block;
+  color: #000;
+  font-size: 10px;
+  font-weight: bold;
+  background-color: #ff0e;
+  padding: 5px 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.post-header {
+  margin-bottom: 30px;
+}
+.post-image {
+  width: 100%;
+  height: auto;
+}
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+ol,
+ul {
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+/* footer p {
+  font-size: 18px;
+} */
+#copyright {
+  font-size: 18px;
+}
+
+/* article header p {
+  font-style: italic;
+} */
+#author {
+  font-style: italic;
+}
+
+.related-author {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.related {
+  list-style-type: none;
+}
+
+/* li:first-child {
+  font-weight: bold;
+} */
+li:nth-child(1) {
+  font-weight: bold;
+}
+
+/* li:last-child {
+  font-style: italic;
+} */
+
+/* li:nth-child(odd) {
+  color: green;
+} */
+
+/* li:nth-child(even) {
+  color: red;
+} */
+
+/* Styling links */
+a {
+  color: red;
+}
+
+a:link {
+  color: #1098ad;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  text-decoration: underline #444;
+  color: #444;
+}
+
+a:active {
+  color: red;
+}
+/* Floats */
+.author-image {
+  float: left;
+}
+.author {
+  margin-left: 20px;
+  padding-top: 10px;
+  float: left;
+}
+h1 {
+  float: left;
+}
+nav {
+  float: right;
+}
+/* .clear {
+  clear: both;
+} */
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+article {
+  float: left;
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+footer {
+  clear: both;
+}
