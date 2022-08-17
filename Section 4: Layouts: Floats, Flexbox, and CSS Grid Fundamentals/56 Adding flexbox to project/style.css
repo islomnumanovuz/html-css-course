@@ -241,10 +241,25 @@ footer {
   font-weight: normal;
   display: inline-block;
   margin-bottom: 5px;
+  font-size: 16px;
 }
 .related-author {
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 12px;
   font-style: italic;
   font-weight: normal;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+aside {
+  flex: 0 0 300px;
+  align-self: flex-start;
+}
+article {
+  flex: 0 0 825px;
+}
+h4 {
+  margin-bottom: 15px;
 }
